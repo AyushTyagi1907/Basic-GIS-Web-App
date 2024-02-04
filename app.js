@@ -44,9 +44,9 @@ fileInput.addEventListener('change', function (e) {
 });
 
 // Add GeoJSON upload button to the map
-fileInput.style.position = 'absolute';
-fileInput.style.zIndex = 1000;
-fileInput.style.margin = '10px';
+//fileInput.style.position = 'absolute';
+//fileInput.style.zIndex = 1000;
+//fileInput.style.margin = '10px';
 
 document.getElementById('map').appendChild(fileInput);
 
